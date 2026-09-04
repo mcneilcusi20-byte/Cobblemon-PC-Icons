@@ -22,6 +22,10 @@ The mod metadata in `fabric.mod.json` also points to this GitHub account as the 
 - Cobblemon: 1.7.3
 - Baby Legends: 2.4 support
 
+**IMPORTANT**
+
+After installing the mod, apply the resource pack before opening your world. The icons are cached when the resource pack is applied, so enabling it first ensures they load correctly.
+
 ## Features
 
 - 2D Pokémon icons in Cobblemon PC storage
