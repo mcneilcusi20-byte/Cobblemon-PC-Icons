@@ -16,8 +16,8 @@ The mod metadata in `fabric.mod.json` also points to this GitHub account as the 
 
 ## Current build
 
-- Mod: `Cobblemon PC Icons v2.0.6.4.jar`
-- Resource pack: `PC_Icons v2.0.6.4.zip`
+- Mod: [`cobblemon-pc-icons-2.0.6.4.jar`](cobblemon-pc-icons-2.0.6.4.jar)
+- Resource pack: [`PC_Icons v2.0.6.4_3.zip`](PC_Icons%20v2.0.6.4_3.zip)
 - Minecraft: 1.21.1
 - Cobblemon: 1.7.3
 - Baby Legends: 2.4 support
@@ -81,7 +81,7 @@ Because **Regiclay** and **Yangram** can evolve into multiple legendary Pokémon
 
 The Royal Carbink form added by Baby Legends is mapped to **Diancie**, including its shiny variant.
 
-The compatibility aliases are bundled directly inside the 2.0.6.4 mod JAR and are also included in the matching v5 resource pack. This means Baby Legends support is available even if only the mod's bundled aliases are used, while the resource pack remains the recommended way to provide the complete E19 icon library.
+The compatibility aliases are bundled directly inside the 2.0.6.4 mod JAR and are also included in the matching resource pack. This means Baby Legends support is available even if only the mod's bundled aliases are used, while the resource pack remains the recommended way to provide the complete E19 icon library.
 
 ## Resource-pack attribution
 
@@ -89,4 +89,6 @@ The PC icon resource pack is a conversion/compatibility pack based on **E19 Cobb
 
 ## Installation
 
-Place the mod JAR in your Fabric `mods` folder and enable the ZIP in Minecraft's Resource Packs menu. Fully restart Minecraft after changing the resource pack because the mod caches icon lookups for the current game session.
+1. Download [`cobblemon-pc-icons-2.0.6.4.jar`](cobblemon-pc-icons-2.0.6.4.jar) and place it in your Fabric `mods` folder.
+2. Download [`PC_Icons v2.0.6.4_3.zip`](PC_Icons%20v2.0.6.4_3.zip) and enable it in Minecraft's Resource Packs menu.
+3. Fully restart Minecraft after changing the resource pack because the mod caches icon lookups for the current game session.
