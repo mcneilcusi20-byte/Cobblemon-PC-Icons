@@ -12,8 +12,8 @@ The mod metadata in `fabric.mod.json` also points to this GitHub account as the 
 
 ## Current build
 
-- Mod: `cobblemon-pc-icons-2.0.6.4-baby-legends.jar`
-- Resource pack: `E19_PC_Icons_All_Forms_Fix_v5_Baby_Legends.zip`
+- Mod: `Cobblemon PC Icons v2.0.6.4.jar`
+- Resource pack: `PC_Icons v2.0.6.4.zip`
 - Minecraft: 1.21.1
 - Cobblemon: 1.7.3
 - Baby Legends: 2.4 support
