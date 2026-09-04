@@ -35,53 +35,46 @@ The mod metadata in `fabric.mod.json` also points to this GitHub account as the 
 - Latot gender mapping: male → Latios, female → Latias
 - Courpup gender mapping: male → Zamazenta, female → Zacian
 
+## Configuration
+
+After launching the game once with the mod installed, the mod automatically creates:
+
+`config/cobblemon-pc-icons.properties`
+
+Open this file with any text editor to change the PC icon size, position, fallback icon, and debug logging.
+
+```properties
+# 1.0 = normal size; range 0.10 to 3.00
+scale=1.3
+
+# Base icon size in logical PC-slot pixels
+base_size=10
+
+# Positive X = right, positive Y = down
+offset_x=0
+offset_y=6
+
+# Show built-in diagnostic icon when no custom sprite exists
+fallback_icon=true
+
+# Log the exact sprite path chosen/attempted once per Pokemon variant
+debug=true
+```
+
+### Quick guide
+
+- `scale` — changes the overall icon size.
+- `base_size` — changes the base rendered icon size.
+- `offset_x` — moves icons left (`-`) or right (`+`).
+- `offset_y` — moves icons up (`-`) or down (`+`).
+- `fallback_icon` — set to `false` to hide the diagnostic fallback icon when a custom sprite is missing.
+- `debug` — set to `false` to disable sprite lookup logging.
+
+The config is checked while the game is running, so saved changes can be picked up without manually recreating the file.
+
 ## Baby Legends 2.4 compatibility
 
-Version **2.0.6.4** includes built-in compatibility aliases for the Baby Legends 2.4 addon. Baby Pokémon use the corresponding adult legendary icon artwork, matching the behavior used by the E19 minimap icon pack rather than introducing newly drawn baby sprites.
-
-Supported Baby Legends species and their PC icon mappings:
-
-| Baby Legends species | PC icon used |
-| --- | --- |
-| Articoo | Articuno |
-| Beta | Arceus |
-| Courpup (male) | Zamazenta |
-| Courpup (female) | Zacian |
-| Creslume | Cresselia |
-| Delcalf | Kyogre |
-| Foreroar | Suicune |
-| Fulguroar | Raikou |
-| Giragrub | Giratina |
-| Haidon | Koraidon |
-| Kaidon | Miraidon |
-| Karfoal | Keldeo |
-| Latot (male) | Latios |
-| Latot (female) | Latias |
-| Myu | Mew |
-| Myutu | Mewtwo |
-| Neonite | Necrozma |
-| Ohho | Ho-Oh |
-| Raygul | Rayquaza |
-| Regiclay | Regigigas |
-| Rotisikree | Moltres |
-| Saladune | Groudon |
-| Statchic | Zapdos |
-| Temga | Dialga |
-| Vertrice | Virizion |
-| Volcaroar | Entei |
-| Xerfawn | Xerneas |
-| Yangram | Kyurem |
-| Yivpip | Yveltal |
-| Zerpint | Zygarde |
-| Royal Carbink | Diancie |
-
-Normal and shiny variants are supported. Gender-specific aliases are included for **Latot** and **Courpup**, including common full-aspect combinations used by Cobblemon so their male/female and shiny appearances resolve correctly in the PC UI.
-
-Because **Regiclay** and **Yangram** can evolve into multiple legendary Pokémon, this compatibility pack uses a single neutral representative icon for each branching line: Regiclay uses **Regigigas**, while Yangram uses **Kyurem**.
-
-The Royal Carbink form added by Baby Legends is mapped to **Diancie**, including its shiny variant.
-
-The compatibility aliases are bundled directly inside the 2.0.6.4 mod JAR and are also included in the matching resource pack. This means Baby Legends support is available even if only the mod's bundled aliases are used, while the resource pack remains the recommended way to provide the complete E19 icon library.
+Version **2.0.6.4** includes built-in Baby Legends 2.4 icon support, including normal/shiny variants and special mappings such as **Latot male → Latios**, **Latot female → Latias**, **Courpup male → Zamazenta**, **Courpup female → Zacian**, and **Royal Carbink → Diancie**. The matching resource pack is recommended for the complete icon library.
 
 ## Resource-pack attribution
 
