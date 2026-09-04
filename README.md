@@ -2,6 +2,10 @@
 
 A client-side Fabric mod for **Minecraft 1.21.1 / Cobblemon 1.7.3** that replaces Pokémon 3D models in the Cobblemon PC storage screen with 2D icons when matching resources are available, while preserving Cobblemon's normal 3D fallback when no icon is found.
 
+## Preview
+
+![Cobblemon PC Icons v2.0.6.4 preview](Screenshot%202026-09-04%20102106.png)
+
 ## Author / Maintainer
 
 **mcneilcusi20-byte**
