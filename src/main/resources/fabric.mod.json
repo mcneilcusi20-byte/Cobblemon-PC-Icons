@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemon_pc_icons",
+  "version": "2.0.6.4",
+  "name": "Cobblemon PC Icons",
+  "description": "Stable cached Cobblemon PC 2D icons with hybrid 3D fallback, plus built-in Baby Legends 2.4 icon aliases.",
+  "authors": [
+    {
+      "name": "mcneilcusi20-byte",
+      "contact": {
+        "homepage": "https://github.com/mcneilcusi20-byte"
+      }
+    }
+  ],
+  "environment": "client",
+  "mixins": [
+    "mixins.cobblemonpcicons.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "1.21.1",
+    "cobblemon": ">=1.7.3"
+  }
+}
